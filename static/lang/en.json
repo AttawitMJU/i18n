@@ -1,0 +1,12 @@
+{
+    "welcome": "Welcome",
+    "link": [
+        "Welcome",
+        "Inspiration"
+    ],
+    "loginform": {
+        "user": "User Name",
+        "password": "Password"
+    },
+    "quote": "First, solve the problem. Then, write the code."
+}
