@@ -20,7 +20,7 @@
           </v-list-item-action>
           <v-list-item-content>
             <!-- <v-list-item-title v-text="item.title" /> -->
-            <v-list-item-title v-text="link_menu[i]" />
+            <v-list-item-title v-text="link[i]" />
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -89,7 +89,7 @@ export default {
     }
   },
   computed: {
-    link_menu() {
+    link() {
       return this.$t('link')
     }
   }

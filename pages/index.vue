@@ -4,8 +4,8 @@
       <div class="text-center">
         <logo />
         <vuetify-logo />
-        <h1>{{ $t('loginform.user') }}</h1>
         <h1>{{ $t('welcome') }}</h1>
+        <h1>{{ $d(new Date()) }}</h1>
       </div>
       <v-card>
         <v-card-title class="headline">

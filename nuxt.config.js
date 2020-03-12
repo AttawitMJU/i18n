@@ -55,7 +55,7 @@ export default {
     locales: ['en', 'th'],
     defaultLocale: 'th',
     vueI18n: {
-      // fallbackLocale: 'en',
+      fallbackLocale: 'en',
       messages: {
         en: require("./static/lang/en.json"),
         th: require("./static/lang/th.json")
